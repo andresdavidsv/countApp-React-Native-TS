@@ -14,7 +14,7 @@ interface Props {
   onPress: () => void;
 }
 
-export const Fab = ({ title, onPress, position = 'br' }: Props) => {
+export const Fab = ({title, onPress, position = 'br'}: Props) => {
   const ios = () => {
     return (
       <TouchableOpacity

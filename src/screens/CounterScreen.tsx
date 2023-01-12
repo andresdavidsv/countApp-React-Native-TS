@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Fab } from '../components/Fab';
+import React, {useState} from 'react';
+import {View, Text, StyleSheet} from 'react-native';
+import {Fab} from '../components/Fab';
 
 export const CounterScreen = () => {
   const [count, setCount] = useState(10);
